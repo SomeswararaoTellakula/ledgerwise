@@ -1,5 +1,9 @@
 # Ledgerwise — an AP exception agent that remembers how your desk decided
 
+**[▶ Live demo](https://ledgerwise-1ydb.onrender.com/)** · **[🎥 Video walkthrough](https://youtu.be/3vHxH_v8v6U)** · **[📝 Article](https://dev.to/someswararaotellakula/i-gave-my-accounts-payable-agent-hindsight-memory-it-stopped-asking-49lj)** · **[Hindsight memory](https://github.com/vectorize-io/hindsight)**
+
+[![Watch the demo](content/thumbnail.png)](https://youtu.be/3vHxH_v8v6U)
+
 Every accounts-payable desk relearns the same vendor quirks every month.
 Tata Steel's price is 3% over PO again (the steel-index clause allows it).
 Sharma Logistics added a fuel surcharge again (fine under ₹2,500, not above).
@@ -13,6 +17,8 @@ decision — and the reason typed with it — is **retained** in [Hindsight](htt
 so the next invoice is easier.
 
 ![Ledgerwise UI](docs/screenshots/review.png)
+
+> The live demo runs on Render's free plan: the first load after a quiet spell can take ~1 minute while it wakes up, and the run resets to week 1.
 
 ## What memory changes (8 weeks, 6 vendors, 48 invoices, 32 exceptions)
 
@@ -77,6 +83,10 @@ docker run --rm -it -p 8888:8888 -p 9999:9999 \
 # then HINDSIGHT_URL=http://localhost:8888  (other LLM providers, e.g. Groq: see Hindsight's configuration docs)
 ```
 
+### Deploy (Render)
+
+Build command `pip install -r requirements.txt`, start command `python app.py` (one process — the run is kept in memory), environment variables `HINDSIGHT_URL=https://api.hindsight.vectorize.io`, `HINDSIGHT_API_KEY`, optional `GROQ_API_KEY`.
+
 Without `HINDSIGHT_URL` the app falls back to a tiny local keyword store so tests run offline; the header
 badge shows which backend is live. The demo is meant to be run on Hindsight.
 
@@ -107,7 +117,7 @@ content/                article, social post, video script, submission notes
 ## Tests
 
 ```bash
-pytest -q   # 8 tests: quirk detection, 0% without memory, 0 wrong auto decisions,
+pytest -q   # 9 tests: Hindsight client contract, quirk detection, 0% without memory, 0 wrong auto decisions,
             # bank-change guardrail, no self-learning, out-of-range escalation, disagreement reset
 ```
 
