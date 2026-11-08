@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ledgerwise — AP desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark">₹</span>
+    <div><h1>Ledgerwise</h1><p>Accounts-payable exceptions, resolved the way your desk resolved them last time.</p></div>
+  </div>
+  <div class="controls">
+    <span id="memBadge" class="badge"></span>
+    <label class="switch" title="Turning memory off resets the run so you can compare">
+      <input type="checkbox" id="memToggle" checked><span>Memory</span>
+    </label>
+    <button id="resetBtn" class="ghost">Reset run</button>
+  </div>
+</header>
+
+<main class="grid">
+  <aside class="col left">
+    <section class="panel">
+      <h2>Learning curve</h2>
+      <p class="sub">Share of exception invoices the agent resolved without a human, per week.</p>
+      <svg id="curve" viewBox="0 0 320 170" role="img" aria-label="Auto-resolution rate by week"></svg>
+      <div class="kpis" id="kpis"></div>
+    </section>
+    <section class="panel">
+      <h2>Up next</h2>
+      <ol id="queue" class="queue"></ol>
+      <div class="actions">
+        <button id="nextBtn" class="primary">Process next invoice</button>
+        <button id="weekBtn">Run to end of week</button>
+        <button id="allBtn" class="ghost">Run all 8 weeks</button>
+      </div>
+      <p class="sub small">“Run” lets the AP lead answer escalations from their notes, so you can watch memory build.</p>
+    </section>
+  </aside>
+
+  <section class="col feed">
+    <div id="review"></div>
+    <div id="feed"></div>
+    <div id="empty" class="empty">Press <b>Process next invoice</b>. Week 1 has no memory, so every exception comes to you.</div>
+  </section>
+
+  <aside class="col right">
+    <section class="panel">
+      <h2>Vendors</h2>
+      <p class="sub">Brief = Hindsight <code>reflect</code> over everything the desk has decided.</p>
+      <ul id="vendors" class="vendors"></ul>
+    </section>
+    <section class="panel">
+      <h2>Recall trace</h2>
+      <ul id="recall" class="recall"></ul>
+    </section>
+  </aside>
+</main>
+
+<dialog id="briefDlg">
+  <h3 id="briefTitle"></h3>
+  <pre id="briefBody"></pre>
+  <form method="dialog"><button>Close</button></form>
+</dialog>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

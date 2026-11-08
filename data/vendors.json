@@ -1,0 +1,56 @@
+[
+  {
+    "id": "V-101",
+    "name": "Tata Steel Distributors Pvt Ltd",
+    "gstin": "27AABCT1332L1ZQ",
+    "category": "Raw material",
+    "terms": "Net 45",
+    "bank": "HDFC ••4471",
+    "quirk": "Steel-index clause: unit price drifts 1.5–4.5% above PO each month."
+  },
+  {
+    "id": "V-102",
+    "name": "Sharma Logistics LLP",
+    "gstin": "07AAKFS8812M1Z2",
+    "category": "Freight",
+    "terms": "Net 15",
+    "bank": "ICICI ••0921",
+    "quirk": "Adds an unbudgeted fuel surcharge line; small ones are accepted, big ones are not."
+  },
+  {
+    "id": "V-103",
+    "name": "Nilgiri Packaging Industries",
+    "gstin": "33AAHFN4410P1Z8",
+    "category": "Packaging",
+    "terms": "Net 30",
+    "bank": "Axis ••7713",
+    "quirk": "Bills the full PO quantity even when the truck arrives short."
+  },
+  {
+    "id": "V-104",
+    "name": "Kaveri Specialty Chemicals",
+    "gstin": "29AAGCK9021Q1Z5",
+    "category": "Chemicals",
+    "terms": "Net 30",
+    "bank": "SBI ••3380",
+    "quirk": "Invoices at 18% GST on an HSN line contracted at 12%."
+  },
+  {
+    "id": "V-105",
+    "name": "Apex Office Supplies",
+    "gstin": "36AAPFA2231C1Z1",
+    "category": "Office",
+    "terms": "Net 30",
+    "bank": "Kotak ••5562",
+    "quirk": "Re-sends unpaid invoices with an '-R' suffix after ~3 weeks."
+  },
+  {
+    "id": "V-106",
+    "name": "Meridian Electricals",
+    "gstin": "36AAMFM7710D1Z9",
+    "category": "Electrical",
+    "terms": "Net 30",
+    "bank": "HDFC ••2290",
+    "quirk": "Clean vendor — until a 'new bank account' letter arrives."
+  }
+]

@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "101/1001",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1001",
+    "date": "2026-08-04",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 10,
+        "unit": "MT",
+        "price": 63222.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1007",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1007",
+    "date": "2026-08-04",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1002",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1002",
+    "date": "2026-08-05",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 2400,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1004",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1004",
+    "date": "2026-08-05",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1003",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1003",
+    "date": "2026-08-06",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "PARTIAL",
+      "reason": "Pay only the GRN quantity; Nilgiri always bills full PO qty on short trucks. Debit note for the balance."
+    }
+  },
+  {
+    "id": "105/1005",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1005",
+    "date": "2026-08-07",
+    "week": 1,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "101/1008",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1008",
+    "date": "2026-08-11",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 10,
+        "unit": "MT",
+        "price": 62484.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1014",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1014",
+    "date": "2026-08-11",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1009",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1009",
+    "date": "2026-08-12",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1011",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1011",
+    "date": "2026-08-12",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1010",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1010",
+    "date": "2026-08-13",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "105/1012",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1012",
+    "date": "2026-08-14",
+    "week": 2,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "101/1015",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1015",
+    "date": "2026-08-18",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 15,
+        "unit": "MT",
+        "price": 63222.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1021",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1021",
+    "date": "2026-08-18",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1016",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1016",
+    "date": "2026-08-19",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1018",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1018",
+    "date": "2026-08-19",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1017",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1017",
+    "date": "2026-08-20",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "PARTIAL",
+      "reason": "Pay only the GRN quantity; Nilgiri always bills full PO qty on short trucks. Debit note for the balance."
+    }
+  },
+  {
+    "id": "105/1019",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1019",
+    "date": "2026-08-21",
+    "week": 3,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "105/1005-R",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1005",
+    "date": "2026-08-24",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "HOLD_DUPLICATE",
+      "reason": "Apex re-sends unpaid invoices with '-R'; original already in the payment run."
+    }
+  },
+  {
+    "id": "101/1022",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1022",
+    "date": "2026-08-25",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 10,
+        "unit": "MT",
+        "price": 62853.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1027",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1027",
+    "date": "2026-08-25",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1023",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1023",
+    "date": "2026-08-26",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1025",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1025",
+    "date": "2026-08-26",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1024",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1024",
+    "date": "2026-08-27",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "105/1026",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1026",
+    "date": "2026-08-28",
+    "week": 4,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "105/1012-R",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1012",
+    "date": "2026-08-31",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "HOLD_DUPLICATE",
+      "reason": "Apex re-sends unpaid invoices with '-R'; original already in the payment run."
+    }
+  },
+  {
+    "id": "101/1028",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1028",
+    "date": "2026-09-01",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 12,
+        "unit": "MT",
+        "price": 63406.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1033",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1033",
+    "date": "2026-09-01",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1029",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1029",
+    "date": "2026-09-02",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1031",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1031",
+    "date": "2026-09-02",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1030",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1030",
+    "date": "2026-09-03",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "PARTIAL",
+      "reason": "Pay only the GRN quantity; Nilgiri always bills full PO qty on short trucks. Debit note for the balance."
+    }
+  },
+  {
+    "id": "105/1032",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1032",
+    "date": "2026-09-04",
+    "week": 5,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "105/1019-R",
+    "vendor_id": "V-105",
+    "po_id": "PO-26-1019",
+    "date": "2026-09-07",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "A4 copier paper 75gsm",
+        "hsn": "4802",
+        "qty": 200,
+        "unit": "Ream",
+        "price": 245.0,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "Kotak ••5562",
+    "note": "",
+    "truth": {
+      "decision": "HOLD_DUPLICATE",
+      "reason": "Apex re-sends unpaid invoices with '-R'; original already in the payment run."
+    }
+  },
+  {
+    "id": "101/1034",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1034",
+    "date": "2026-09-08",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 15,
+        "unit": "MT",
+        "price": 62484.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1038",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1038",
+    "date": "2026-09-08",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Yes Bank ••8812",
+    "note": "Cover letter: 'We have moved our banking to Yes Bank, please update.'",
+    "truth": {
+      "decision": "ESCALATE",
+      "reason": "Bank change verified by call-back to known number before any payment."
+    }
+  },
+  {
+    "id": "102/1035",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1035",
+    "date": "2026-09-09",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 6800,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "Surcharge above the ₹2,500 cap agreed with Ops — reject, ask vendor to reissue."
+    }
+  },
+  {
+    "id": "104/1037",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1037",
+    "date": "2026-09-09",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1036",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1036",
+    "date": "2026-09-10",
+    "week": 6,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "101/1039",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1039",
+    "date": "2026-09-15",
+    "week": 7,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 10,
+        "unit": "MT",
+        "price": 63406.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1043",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1043",
+    "date": "2026-09-15",
+    "week": 7,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1040",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1040",
+    "date": "2026-09-16",
+    "week": 7,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1042",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1042",
+    "date": "2026-09-16",
+    "week": 7,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1041",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1041",
+    "date": "2026-09-17",
+    "week": 7,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "PARTIAL",
+      "reason": "Pay only the GRN quantity; Nilgiri always bills full PO qty on short trucks. Debit note for the balance."
+    }
+  },
+  {
+    "id": "101/1044",
+    "vendor_id": "V-101",
+    "po_id": "PO-26-1044",
+    "date": "2026-09-22",
+    "week": 8,
+    "lines": [
+      {
+        "desc": "HR Coil 2.0mm IS2062",
+        "hsn": "7208",
+        "qty": 15,
+        "unit": "MT",
+        "price": 64083.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••4471",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Contract clause 7.2 allows monthly steel-index price adjustment up to 5%; index sheet attached."
+    }
+  },
+  {
+    "id": "106/1048",
+    "vendor_id": "V-106",
+    "po_id": "PO-26-1048",
+    "date": "2026-09-22",
+    "week": 8,
+    "lines": [
+      {
+        "desc": "LED panel 2x2 36W",
+        "hsn": "9405",
+        "qty": 60,
+        "unit": "Nos",
+        "price": 1180.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "HDFC ••2290",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  },
+  {
+    "id": "102/1045",
+    "vendor_id": "V-102",
+    "po_id": "PO-26-1045",
+    "date": "2026-09-23",
+    "week": 8,
+    "lines": [
+      {
+        "desc": "FTL Hyderabad→Pune 32ft",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Trip",
+        "price": 48000.0,
+        "gst_pct": 12
+      },
+      {
+        "desc": "Fuel surcharge",
+        "hsn": "9965",
+        "qty": 1,
+        "unit": "Lot",
+        "price": 1200,
+        "gst_pct": 12
+      }
+    ],
+    "bank": "ICICI ••0921",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Fuel surcharge up to ₹2,500/trip is pre-agreed with Sharma Logistics (email from Ops, Jun-26)."
+    }
+  },
+  {
+    "id": "104/1047",
+    "vendor_id": "V-104",
+    "po_id": "PO-26-1047",
+    "date": "2026-09-23",
+    "week": 8,
+    "lines": [
+      {
+        "desc": "Sodium silicate (liquid) 50kg",
+        "hsn": "2839",
+        "qty": 40,
+        "unit": "Drum",
+        "price": 2150.0,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "SBI ••3380",
+    "note": "",
+    "truth": {
+      "decision": "REJECT",
+      "reason": "HSN 2839 is contracted at 12% GST; ask Kaveri for a credit note / revised invoice. Never pay the 18% version."
+    }
+  },
+  {
+    "id": "103/1046",
+    "vendor_id": "V-103",
+    "po_id": "PO-26-1046",
+    "date": "2026-09-24",
+    "week": 8,
+    "lines": [
+      {
+        "desc": "5-ply corrugated box 18x12x10",
+        "hsn": "4819",
+        "qty": 4000,
+        "unit": "Nos",
+        "price": 38.5,
+        "gst_pct": 18
+      }
+    ],
+    "bank": "Axis ••7713",
+    "note": "",
+    "truth": {
+      "decision": "APPROVE",
+      "reason": "Clean 3-way match."
+    }
+  }
+]
